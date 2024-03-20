@@ -9,8 +9,8 @@ namespace TaskLibreria
         {
             Libro lib = new Libro()
             {
-                
-                Titolo="Il Mercante",
+                Id=2,
+                Titolo="Il Mercante2",
                 AnnoDiPubblicazione=new(2023,04,18),
                 IsDisponibile=true
             };
@@ -23,11 +23,19 @@ namespace TaskLibreria
             #endregion
             #region Stampa tutti i libri
             //Tiriamo fuori tutti i libri
-            foreach (Libro l in LibroDAL.getIstanza().GetAll())
-            {
-                Console.WriteLine(l);
-            }
+            //foreach (Libro l in LibroDAL.getIstanza().GetAll())
+            //{
+            //    Console.WriteLine(l);
+            //}
             #endregion
+            #region Update Libri
+            Console.WriteLine(LibroDAL.getIstanza().Update(lib));
+            #endregion
+            foreach(Libro l in LibroDAL.getIstanza().TrovaLibriDisponibili())
+            {
+                Console.WriteLine(l.ToString());
+            }
+            
         }
     }
 }

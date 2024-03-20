@@ -18,6 +18,9 @@ namespace TaskLibreria.DAL
                 istanza = new LibroDAL();
             return istanza;
         }
+
+
+        private List<Libro> elencoLibri = new List<Libro>();
         public bool Delete(Libro t)
         {
             bool risultato = false;
@@ -45,9 +48,9 @@ namespace TaskLibreria.DAL
             }
         }
 
-            public List<Libro> GetAll()
+        public List<Libro> GetAll()
             {
-            List<Libro> elenco = new List<Libro> ();
+
             using (SqlConnection con = new SqlConnection(Config.getIstanza().GetConnectionString()))
             {
                 SqlCommand cmd = con.CreateCommand();
@@ -60,7 +63,7 @@ namespace TaskLibreria.DAL
                     SqlDataReader reader = cmd.ExecuteReader();
                     while (reader.Read())
                     {
-                        elenco.Add(new Libro
+                        elencoLibri.Add(new Libro
                         {
                             Id = Convert.ToInt32(reader["libroID"]),
                             Titolo = reader["titolo"].ToString(),
@@ -76,17 +79,47 @@ namespace TaskLibreria.DAL
                     Console.WriteLine(ex.Message);
                 }
                 finally { con.Close(); }
-                return elenco;
+                return elencoLibri;
             }
             
             }
 
-            public Libro GetById(int id)
+        public Libro? GetById(int id)
+        {
+            Libro? libro = null;
+
+            using (SqlConnection con = new SqlConnection(Config.getIstanza().GetConnectionString()))
             {
-                throw new NotImplementedException();
+                SqlCommand cmd = con.CreateCommand();
+                cmd.CommandText = "SELECT libroID, titolo, annoDiPubblicazione, IsDisponibile FROM Libro WHERE libroID = @valId";
+                cmd.Parameters.AddWithValue("@valId", id);
+
+                try
+                {
+                    con.Open();
+                    SqlDataReader reader = cmd.ExecuteReader();
+                    if (reader.Read())
+                    {
+                        libro = new Libro
+                        {
+                            Id = Convert.ToInt32(reader["libroID"]),
+                            Titolo = reader["titolo"].ToString(),
+                            AnnoDiPubblicazione = Convert.ToDateTime(reader["annoDiPubblicazione"]),
+                            IsDisponibile = Convert.ToBoolean(reader["IsDisponibile"])
+                        };
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
             }
 
-            public bool Insert(Libro t)
+            return libro;
+        }
+
+
+        public bool Insert(Libro t)
             {
                 bool risultato = false;
                 using (SqlConnection con = new SqlConnection(Config.getIstanza().GetConnectionString()))
@@ -118,8 +151,42 @@ namespace TaskLibreria.DAL
 
             public bool Update(Libro t)
             {
-                throw new NotImplementedException();
+
+            bool risultato = false;
+            using (SqlConnection con = new SqlConnection(Config.getIstanza().GetConnectionString()))
+            {
+                SqlCommand cmd = con.CreateCommand();
+                cmd.CommandText = "UPDATE Libro SET titolo = @valTitolo,annoDiPubblicazione = @valAnno,IsDisponibile= @valDisp WHERE libroID = @valId";
+                cmd.Parameters.AddWithValue("@valTitolo", t.Titolo);
+                cmd.Parameters.AddWithValue("@valAnno", t.AnnoDiPubblicazione);
+                cmd.Parameters.AddWithValue("@valDisp", t.IsDisponibile);
+                cmd.Parameters.AddWithValue("@valId", t.Id);
+                try
+                {
+                    con.Open();
+                    if (cmd.ExecuteNonQuery() > 0)
+                        risultato = true;
+
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
+                finally
+                {
+                    con.Close();
+                }
+                return risultato;
             }
+
+        }
+
+       public List<Libro> TrovaLibriDisponibili()
+        {
+            List<Libro> libri = GetAll();
+            return libri.FindAll(libro => libro.IsDisponibile);
         }
 
     }
+
+}

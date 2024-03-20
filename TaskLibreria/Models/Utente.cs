@@ -15,12 +15,20 @@ namespace TaskLibreria.Models
         public string? Email { get; set; }
 
 
-        public Utente(int id, string? nome, string? cognome, string? email)
+        public Utente() { }
+        public Utente(int id, string? nome, string? cognome,string? email)
         {
             Id = id;
             Nome = nome;
             Cognome = cognome;
             Email = email;
+        
+        }
+        public Utente(string?nome,string?cognome,string?email)
+        {
+            Nome = nome;
+            Cognome = cognome;
+            Email = email;  
         }
     }
 }

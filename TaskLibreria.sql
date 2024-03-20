@@ -1,3 +1,5 @@
+USE TaskLibreria;
+
 CREATE TABLE Utente (
 	utenteID INT PRIMARY KEY IDENTITY (1,1),
 	nome VARCHAR(250) NOT NULL,
@@ -23,4 +25,6 @@ CREATE TABLE Prestito(
 	FOREIGN KEY (utenteRIF) REFERENCES Utente (utenteID) ON DELETE CASCADE
 );
 
+SELECT * FROM Libro 
 SELECT * FROM Libro
+JOIN 

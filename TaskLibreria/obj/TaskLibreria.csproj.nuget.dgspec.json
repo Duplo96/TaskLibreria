@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Utente.ACADEMY2024-15\\source\\repos\\Academy\\TaskLibreria\\TaskLibreria\\TaskLibreria.csproj": {}
+    "C:\\Users\\Utente.ACADEMY2024-15\\Desktop\\TaskLibreria\\TaskLibreria\\TaskLibreria.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Utente.ACADEMY2024-15\\source\\repos\\Academy\\TaskLibreria\\TaskLibreria\\TaskLibreria.csproj": {
+    "C:\\Users\\Utente.ACADEMY2024-15\\Desktop\\TaskLibreria\\TaskLibreria\\TaskLibreria.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Utente.ACADEMY2024-15\\source\\repos\\Academy\\TaskLibreria\\TaskLibreria\\TaskLibreria.csproj",
+        "projectUniqueName": "C:\\Users\\Utente.ACADEMY2024-15\\Desktop\\TaskLibreria\\TaskLibreria\\TaskLibreria.csproj",
         "projectName": "TaskLibreria",
-        "projectPath": "C:\\Users\\Utente.ACADEMY2024-15\\source\\repos\\Academy\\TaskLibreria\\TaskLibreria\\TaskLibreria.csproj",
+        "projectPath": "C:\\Users\\Utente.ACADEMY2024-15\\Desktop\\TaskLibreria\\TaskLibreria\\TaskLibreria.csproj",
         "packagesPath": "C:\\Users\\Utente.ACADEMY2024-15\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Utente.ACADEMY2024-15\\source\\repos\\Academy\\TaskLibreria\\TaskLibreria\\obj\\",
+        "outputPath": "C:\\Users\\Utente.ACADEMY2024-15\\Desktop\\TaskLibreria\\TaskLibreria\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

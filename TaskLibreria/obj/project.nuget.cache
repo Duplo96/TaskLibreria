@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "J6lDu5yAWdFFM5S3y5c30MeCt1YZm5w5bdAYP5R6nnKXtODo9UTo3hTkcjzCz0FFSLtMdqturpGKyP0WoUfLYA==",
+  "dgSpecHash": "SX85Qot4LHZc8XNkXi4ZRHtdkMqWD5bg8O6Cl7rgXlc3vmgaT/IuIyrBLKBTEc68/Zr+RojS6eBKW2Ew4Kfy6Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Utente.ACADEMY2024-15\\source\\repos\\Academy\\TaskLibreria\\TaskLibreria\\TaskLibreria.csproj",
+  "projectFilePath": "C:\\Users\\Utente.ACADEMY2024-15\\Desktop\\TaskLibreria\\TaskLibreria\\TaskLibreria.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Utente.ACADEMY2024-15\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "C:\\Users\\Utente.ACADEMY2024-15\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",

@@ -9,7 +9,7 @@ namespace TaskLibreria.DAL
     internal interface  IDal<T>
     {
 
-        T GetById(int id);
+        T? GetById(int id);
         List<T> GetAll();
         bool Insert(T t);
         bool Update(T t);
