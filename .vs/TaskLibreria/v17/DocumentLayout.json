@@ -1,0 +1,169 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Utente.ACADEMY2024-15\\source\\repos\\Academy\\TaskLibreria\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D9BEDF47-A441-4B0F-81A7-8384CB1E33AC}|TaskLibreria\\TaskLibreria.csproj|c:\\users\\utente.academy2024-15\\source\\repos\\academy\\tasklibreria\\tasklibreria\\dal\\librodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9BEDF47-A441-4B0F-81A7-8384CB1E33AC}|TaskLibreria\\TaskLibreria.csproj|solutionrelative:tasklibreria\\dal\\librodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9BEDF47-A441-4B0F-81A7-8384CB1E33AC}|TaskLibreria\\TaskLibreria.csproj|c:\\users\\utente.academy2024-15\\source\\repos\\academy\\tasklibreria\\tasklibreria\\utilities\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9BEDF47-A441-4B0F-81A7-8384CB1E33AC}|TaskLibreria\\TaskLibreria.csproj|solutionrelative:tasklibreria\\utilities\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9BEDF47-A441-4B0F-81A7-8384CB1E33AC}|TaskLibreria\\TaskLibreria.csproj|c:\\users\\utente.academy2024-15\\source\\repos\\academy\\tasklibreria\\tasklibreria\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D9BEDF47-A441-4B0F-81A7-8384CB1E33AC}|TaskLibreria\\TaskLibreria.csproj|solutionrelative:tasklibreria\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9BEDF47-A441-4B0F-81A7-8384CB1E33AC}|TaskLibreria\\TaskLibreria.csproj|c:\\users\\utente.academy2024-15\\source\\repos\\academy\\tasklibreria\\tasklibreria\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9BEDF47-A441-4B0F-81A7-8384CB1E33AC}|TaskLibreria\\TaskLibreria.csproj|solutionrelative:tasklibreria\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9BEDF47-A441-4B0F-81A7-8384CB1E33AC}|TaskLibreria\\TaskLibreria.csproj|c:\\users\\utente.academy2024-15\\source\\repos\\academy\\tasklibreria\\tasklibreria\\models\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9BEDF47-A441-4B0F-81A7-8384CB1E33AC}|TaskLibreria\\TaskLibreria.csproj|solutionrelative:tasklibreria\\models\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9BEDF47-A441-4B0F-81A7-8384CB1E33AC}|TaskLibreria\\TaskLibreria.csproj|c:\\users\\utente.academy2024-15\\source\\repos\\academy\\tasklibreria\\tasklibreria\\dal\\utentedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9BEDF47-A441-4B0F-81A7-8384CB1E33AC}|TaskLibreria\\TaskLibreria.csproj|solutionrelative:tasklibreria\\dal\\utentedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9BEDF47-A441-4B0F-81A7-8384CB1E33AC}|TaskLibreria\\TaskLibreria.csproj|c:\\users\\utente.academy2024-15\\source\\repos\\academy\\tasklibreria\\tasklibreria\\dal\\idal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9BEDF47-A441-4B0F-81A7-8384CB1E33AC}|TaskLibreria\\TaskLibreria.csproj|solutionrelative:tasklibreria\\dal\\idal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9BEDF47-A441-4B0F-81A7-8384CB1E33AC}|TaskLibreria\\TaskLibreria.csproj|c:\\users\\utente.academy2024-15\\source\\repos\\academy\\tasklibreria\\tasklibreria\\models\\prestito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9BEDF47-A441-4B0F-81A7-8384CB1E33AC}|TaskLibreria\\TaskLibreria.csproj|solutionrelative:tasklibreria\\models\\prestito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9BEDF47-A441-4B0F-81A7-8384CB1E33AC}|TaskLibreria\\TaskLibreria.csproj|c:\\users\\utente.academy2024-15\\source\\repos\\academy\\tasklibreria\\tasklibreria\\models\\utente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9BEDF47-A441-4B0F-81A7-8384CB1E33AC}|TaskLibreria\\TaskLibreria.csproj|solutionrelative:tasklibreria\\models\\utente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 129,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Utente.ACADEMY2024-15\\source\\repos\\Academy\\TaskLibreria\\TaskLibreria\\Program.cs",
+              "RelativeDocumentMoniker": "TaskLibreria\\Program.cs",
+              "ToolTip": "C:\\Users\\Utente.ACADEMY2024-15\\source\\repos\\Academy\\TaskLibreria\\TaskLibreria\\Program.cs",
+              "RelativeToolTip": "TaskLibreria\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T14:39:30.527Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IDal.cs",
+              "DocumentMoniker": "C:\\Users\\Utente.ACADEMY2024-15\\source\\repos\\Academy\\TaskLibreria\\TaskLibreria\\DAL\\IDal.cs",
+              "RelativeDocumentMoniker": "TaskLibreria\\DAL\\IDal.cs",
+              "ToolTip": "C:\\Users\\Utente.ACADEMY2024-15\\source\\repos\\Academy\\TaskLibreria\\TaskLibreria\\DAL\\IDal.cs",
+              "RelativeToolTip": "TaskLibreria\\DAL\\IDal.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T16:16:01.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appSettings.json",
+              "DocumentMoniker": "C:\\Users\\Utente.ACADEMY2024-15\\source\\repos\\Academy\\TaskLibreria\\TaskLibreria\\appSettings.json",
+              "RelativeDocumentMoniker": "TaskLibreria\\appSettings.json",
+              "ToolTip": "C:\\Users\\Utente.ACADEMY2024-15\\source\\repos\\Academy\\TaskLibreria\\TaskLibreria\\appSettings.json",
+              "RelativeToolTip": "TaskLibreria\\appSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-20T15:34:26.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Config.cs",
+              "DocumentMoniker": "C:\\Users\\Utente.ACADEMY2024-15\\source\\repos\\Academy\\TaskLibreria\\TaskLibreria\\Utilities\\Config.cs",
+              "RelativeDocumentMoniker": "TaskLibreria\\Utilities\\Config.cs",
+              "ToolTip": "C:\\Users\\Utente.ACADEMY2024-15\\source\\repos\\Academy\\TaskLibreria\\TaskLibreria\\Utilities\\Config.cs",
+              "RelativeToolTip": "TaskLibreria\\Utilities\\Config.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwCQAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T15:09:35.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LibroDAL.cs",
+              "DocumentMoniker": "C:\\Users\\Utente.ACADEMY2024-15\\source\\repos\\Academy\\TaskLibreria\\TaskLibreria\\DAL\\LibroDAL.cs",
+              "RelativeDocumentMoniker": "TaskLibreria\\DAL\\LibroDAL.cs",
+              "ToolTip": "C:\\Users\\Utente.ACADEMY2024-15\\source\\repos\\Academy\\TaskLibreria\\TaskLibreria\\DAL\\LibroDAL.cs",
+              "RelativeToolTip": "TaskLibreria\\DAL\\LibroDAL.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T15:06:29.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UtenteDAL.cs",
+              "DocumentMoniker": "C:\\Users\\Utente.ACADEMY2024-15\\source\\repos\\Academy\\TaskLibreria\\TaskLibreria\\DAL\\UtenteDAL.cs",
+              "RelativeDocumentMoniker": "TaskLibreria\\DAL\\UtenteDAL.cs",
+              "ToolTip": "C:\\Users\\Utente.ACADEMY2024-15\\source\\repos\\Academy\\TaskLibreria\\TaskLibreria\\DAL\\UtenteDAL.cs",
+              "RelativeToolTip": "TaskLibreria\\DAL\\UtenteDAL.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAqwBMAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T15:03:10.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Prestito.cs",
+              "DocumentMoniker": "C:\\Users\\Utente.ACADEMY2024-15\\source\\repos\\Academy\\TaskLibreria\\TaskLibreria\\Models\\Prestito.cs",
+              "RelativeDocumentMoniker": "TaskLibreria\\Models\\Prestito.cs",
+              "ToolTip": "C:\\Users\\Utente.ACADEMY2024-15\\source\\repos\\Academy\\TaskLibreria\\TaskLibreria\\Models\\Prestito.cs",
+              "RelativeToolTip": "TaskLibreria\\Models\\Prestito.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAYwA8AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T14:44:29.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Libro.cs",
+              "DocumentMoniker": "C:\\Users\\Utente.ACADEMY2024-15\\source\\repos\\Academy\\TaskLibreria\\TaskLibreria\\Models\\Libro.cs",
+              "RelativeDocumentMoniker": "TaskLibreria\\Models\\Libro.cs",
+              "ToolTip": "C:\\Users\\Utente.ACADEMY2024-15\\source\\repos\\Academy\\TaskLibreria\\TaskLibreria\\Models\\Libro.cs",
+              "RelativeToolTip": "TaskLibreria\\Models\\Libro.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAcwCMAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T14:42:55.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Utente.cs",
+              "DocumentMoniker": "C:\\Users\\Utente.ACADEMY2024-15\\source\\repos\\Academy\\TaskLibreria\\TaskLibreria\\Models\\Utente.cs",
+              "RelativeDocumentMoniker": "TaskLibreria\\Models\\Utente.cs",
+              "ToolTip": "C:\\Users\\Utente.ACADEMY2024-15\\source\\repos\\Academy\\TaskLibreria\\TaskLibreria\\Models\\Utente.cs",
+              "RelativeToolTip": "TaskLibreria\\Models\\Utente.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAkwBQAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T14:41:12.941Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
